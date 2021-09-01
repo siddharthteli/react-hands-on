@@ -1,4 +1,4 @@
-
+import Button from "./componenets/Button"
 import logo from "./logo.svg";
 import "./App.css";
 import Header from "./componenets/Header"
@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="container">
       <Header title='siddharth'/>
+      <Button/>
      <h1>
        {name_app}
      </h1>
