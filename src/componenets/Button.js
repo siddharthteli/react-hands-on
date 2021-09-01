@@ -1,6 +1,9 @@
 const Button = () => {
+   const Onclick=()=> {
+       console.log("Hello");
+   }
     return(
-    <h1> This is a button </h1>)
+    <button onClick={Onclick}>Sure</button>)
 };
 
 export default Button;
