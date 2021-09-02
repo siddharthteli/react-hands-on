@@ -2,10 +2,10 @@
 //We can include mutiple of this button .
 
 import  PropTypes from "prop-types";
-const Button = ({onClick}) => {
+const Button = ({onAdd}) => {
 
     return(
-    <button onClick={onClick}>Save</button>)
+    <button onClick={onAdd}>Save</button>)
 };
 
 
